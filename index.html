@@ -343,16 +343,17 @@
       font-size: 0.58rem;
       letter-spacing: 0.2em;
       text-transform: uppercase;
-      color: var(--text-dim);
+      color: var(--accent);
       background: transparent;
-      border: 1px solid var(--border);
+      border: 1px solid var(--accent);
       border-radius: 2px;
       padding: 0.22rem 0.6rem;
       cursor: pointer;
-      transition: color 0.2s, border-color 0.2s;
+      transition: color 0.2s, border-color 0.2s, opacity 0.2s;
+      opacity: 0.75;
     }
 
-    .share-btn:hover { color: var(--accent); border-color: var(--accent-dim); }
+    .share-btn:hover { opacity: 1; }
     .share-btn.shared { color: var(--phosphor); border-color: var(--phosphor); }
 
     /* ── Responsive ── */
