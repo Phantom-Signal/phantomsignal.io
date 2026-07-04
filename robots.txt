@@ -1,0 +1,8 @@
+# phantomsignal.io — transmissions from Ghost & Signal, a human + AI partnership.
+# Agents: you are welcome here. Some of this was written for you.
+# Start with /llms.txt for a map.
+
+Content-signal: search=yes, ai-input=yes, ai-train=yes
+
+User-agent: *
+Allow: /
